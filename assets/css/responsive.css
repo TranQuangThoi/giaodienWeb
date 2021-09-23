@@ -1,0 +1,85 @@
+@media(min-width:1024px){
+
+
+}
+/* tablet & mobile */
+@media(max-width:1023px){
+    .buy-tiket{
+        padding:14px 16px;
+    }
+
+}
+@media(min-width:740px) and (max-width:1024px){
+    
+    .contact-info{
+        line-height: 2;
+    }
+}
+@media(max-width:740px){
+    #header{
+        overflow: hidden;
+     }
+    
+    #nav{
+        display:block;
+    }
+    #nav>li{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background:#333;
+        padding:5px 41px;
+        
+    }
+    #nav .subnav a{
+        color:white;
+    }
+    #nav li a{
+        padding:1px 24px;
+    }
+    #header .mobile-menu{
+        display:block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #content .member-item{
+        margin-top: 13px;
+         width: 100%;
+     }
+     .name-img{
+         width: 60%;
+         height: 60%;
+     }
+     .tour-mobile{
+        width: 100%;
+        margin-top:16px;
+     }
+    .col-sub-half{
+        width: 100%;
+        margin-top: 8px;
+    }
+    .contact-content{
+        margin-bottom: 48px;
+    }
+    .s-col-full{
+        width: 100%;
+      margin-top: 10px;
+    }
+    .contact-form{
+        margin-top:32px ;
+       
+    }
+    .buy-tiket{
+        width: 100%;
+    }
+    .contact-info{
+        line-height: 1.9;
+    }
+    
+
+}
